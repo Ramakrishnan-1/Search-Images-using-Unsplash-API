@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="style.css" rel="stylesheet" />
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+   </head>
+   <body>
+      <div id="particles-js">
+         <div id="container">
+            <header>Search Images using Unsplash API</header>
+            <div id="searchID">
+               <input type="text" name="search" value="github" placeholder="Search images..." id="queryText">
+            </div>
+            <div class="slideshow-container fadeIn">
+               <div id="bindImages">
+               </div>
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+         </div>
+      </div>
+      <br>
+      <script src="loadImages.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
